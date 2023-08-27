@@ -1,5 +1,5 @@
 <template>
-    <v-card style="max-width: 700px; margin-top: 30px;">
+    <v-card style="max-width: 700px; margin-top: 30px; padding: 30px; left: 50px;">
         <v-card-title>记录查询</v-card-title>
         <v-text-field
             lable="时间"
@@ -9,7 +9,7 @@
             @click="fetch()"
         >查询</v-btn>
     </v-card>
-    <v-card style="max-width: 700px; margin-top: 30px;">
+    <v-card style="max-width: 700px; margin-top: 30px; padding: 30px; left: 50px;">
         <v-card-title>账单</v-card-title>
         <v-table>
             <thead>

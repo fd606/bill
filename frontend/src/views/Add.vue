@@ -1,5 +1,5 @@
 <template>
-    <v-card style="max-width: 700px; margin-top: 30px;">
+    <v-card style="max-width: 700px; margin-top: 30px; padding: 30px; left: 50px;">
         <v-card-title>新增记录</v-card-title>
         <v-form>
             <v-select
